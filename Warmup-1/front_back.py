@@ -4,7 +4,7 @@ def front_back(str):
     if len(str) < 2:
         return str   
 
-    for i in range(len(str)):
+    for i in range(len(str)):#多餘 不要也可以...
         new = str[-1] + str[1:-1] + str[0]
     return new
 
