@@ -1,5 +1,9 @@
 # Return True if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.).
 #  So "xxyz" counts but "x.xyz" does not.
+#      0123456789 
+#str = abc.xyzxyz
+#      xixx
+
 
 def xyz_there(str):
     if len(str) >= 3 and str[0:3] == "xyz":
