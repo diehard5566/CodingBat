@@ -2,7 +2,7 @@
 #  So "xxyz" counts but "x.xyz" does not.
 #      0123456789 
 #str = abc.xyzxyz
-#      xixx
+#         xixx
 
 
 def xyz_there(str):
