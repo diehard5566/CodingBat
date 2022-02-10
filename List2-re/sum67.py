@@ -14,11 +14,16 @@ def sum67(nums):
         elif flags == True:
          sum = sum + nums[i]    
     return sum
-      
+        
+       
+
+
+  #return sum
+
 sum67([1, 6, 2, 2, 7, 1, 6, 99, 99, 7]) # 2
-print(sum67([1, 2, 2])) # 5
-print(sum67([1, 2, 2, 6, 99, 99, 7])) # 5
-print(sum67([1, 1, 6, 7, 2])) # 4
+# print(sum67([1, 2, 2])) # 5
+# print(sum67([1, 2, 2, 6, 99, 99, 7])) # 5
+# print(sum67([1, 1, 6, 7, 2])) # 4
 
 #nums[i:(nums[i]+1)]  6-7
 
